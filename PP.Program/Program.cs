@@ -23,9 +23,18 @@ internal class Program
             // Maaşı hesapla ve ekrana yazdır
             decimal maas = personel.MaasHesapla(saatlikUcret,calismaSaati);
             Console.WriteLine($"Maaş: {maas:C}\n");
-        }
 
-        //MaasBordro
+            //MaasBordro
+            MaasBordro maasBordro = new MaasBordro();
+            maasBordro.BordroOlustur(personelListesi, saatlikUcret, calismaSaati);
+
+            List<Personel> azCalisanlar = maasBordro.AzCalisanRaporu(personelListesi, calismaSaati);
+            Console.WriteLine("\nAz Çalışan Personeller:");
+            foreach (var azCalisan in azCalisanlar) // Döngüde farklı bir değişken adı kullanın
+            {
+                Console.WriteLine($"Adı: {azCalisan.Ad} {azCalisan.Soyad}, Çalışma Saati: {calismaSaati}");
+            }
+        }
 
     }
 }
