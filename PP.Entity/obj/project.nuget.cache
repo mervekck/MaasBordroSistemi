@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vSfDiZCy9J9RPfMTs8p7pG1jy36a6cKXgBemiRtnk1ZEJCS9y+QhrLfoMcFr5Ah3ddDgLzrf9NApMcfjEFXt1Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lenovo\\OneDrive\\Masaüstü\\.Net Eğitimi\\Projeler\\PayrollProgram\\PP.Entity\\PP.Entity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

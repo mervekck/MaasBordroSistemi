@@ -1,0 +1,12 @@
+C:\Users\Lenovo\OneDrive\Masaüstü\.Net Eğitimi\Projeler\PayrollProgram\PP.Entity\bin\Debug\net7.0\PP.Entity.deps.json
+C:\Users\Lenovo\OneDrive\Masaüstü\.Net Eğitimi\Projeler\PayrollProgram\PP.Entity\bin\Debug\net7.0\PP.Entity.dll
+C:\Users\Lenovo\OneDrive\Masaüstü\.Net Eğitimi\Projeler\PayrollProgram\PP.Entity\bin\Debug\net7.0\PP.Entity.pdb
+C:\Users\Lenovo\OneDrive\Masaüstü\.Net Eğitimi\Projeler\PayrollProgram\PP.Entity\obj\Debug\net7.0\PP.Entity.csproj.AssemblyReference.cache
+C:\Users\Lenovo\OneDrive\Masaüstü\.Net Eğitimi\Projeler\PayrollProgram\PP.Entity\obj\Debug\net7.0\PP.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\OneDrive\Masaüstü\.Net Eğitimi\Projeler\PayrollProgram\PP.Entity\obj\Debug\net7.0\PP.Entity.AssemblyInfoInputs.cache
+C:\Users\Lenovo\OneDrive\Masaüstü\.Net Eğitimi\Projeler\PayrollProgram\PP.Entity\obj\Debug\net7.0\PP.Entity.AssemblyInfo.cs
+C:\Users\Lenovo\OneDrive\Masaüstü\.Net Eğitimi\Projeler\PayrollProgram\PP.Entity\obj\Debug\net7.0\PP.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive\Masaüstü\.Net Eğitimi\Projeler\PayrollProgram\PP.Entity\obj\Debug\net7.0\PP.Entity.dll
+C:\Users\Lenovo\OneDrive\Masaüstü\.Net Eğitimi\Projeler\PayrollProgram\PP.Entity\obj\Debug\net7.0\refint\PP.Entity.dll
+C:\Users\Lenovo\OneDrive\Masaüstü\.Net Eğitimi\Projeler\PayrollProgram\PP.Entity\obj\Debug\net7.0\PP.Entity.pdb
+C:\Users\Lenovo\OneDrive\Masaüstü\.Net Eğitimi\Projeler\PayrollProgram\PP.Entity\obj\Debug\net7.0\ref\PP.Entity.dll

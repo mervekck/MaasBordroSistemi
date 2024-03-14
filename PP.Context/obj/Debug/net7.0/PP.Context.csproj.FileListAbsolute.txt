@@ -1,0 +1,17 @@
+C:\Users\Lenovo\OneDrive\Masaüstü\.Net Eğitimi\Projeler\PayrollProgram\PP.Context\bin\Debug\net7.0\PP.Context.deps.json
+C:\Users\Lenovo\OneDrive\Masaüstü\.Net Eğitimi\Projeler\PayrollProgram\PP.Context\bin\Debug\net7.0\PP.Context.runtimeconfig.json
+C:\Users\Lenovo\OneDrive\Masaüstü\.Net Eğitimi\Projeler\PayrollProgram\PP.Context\bin\Debug\net7.0\PP.Context.dll
+C:\Users\Lenovo\OneDrive\Masaüstü\.Net Eğitimi\Projeler\PayrollProgram\PP.Context\bin\Debug\net7.0\PP.Context.pdb
+C:\Users\Lenovo\OneDrive\Masaüstü\.Net Eğitimi\Projeler\PayrollProgram\PP.Context\bin\Debug\net7.0\PP.Entity.dll
+C:\Users\Lenovo\OneDrive\Masaüstü\.Net Eğitimi\Projeler\PayrollProgram\PP.Context\bin\Debug\net7.0\PP.Entity.pdb
+C:\Users\Lenovo\OneDrive\Masaüstü\.Net Eğitimi\Projeler\PayrollProgram\PP.Context\obj\Debug\net7.0\PP.Context.csproj.AssemblyReference.cache
+C:\Users\Lenovo\OneDrive\Masaüstü\.Net Eğitimi\Projeler\PayrollProgram\PP.Context\obj\Debug\net7.0\PP.Context.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\OneDrive\Masaüstü\.Net Eğitimi\Projeler\PayrollProgram\PP.Context\obj\Debug\net7.0\PP.Context.AssemblyInfoInputs.cache
+C:\Users\Lenovo\OneDrive\Masaüstü\.Net Eğitimi\Projeler\PayrollProgram\PP.Context\obj\Debug\net7.0\PP.Context.AssemblyInfo.cs
+C:\Users\Lenovo\OneDrive\Masaüstü\.Net Eğitimi\Projeler\PayrollProgram\PP.Context\obj\Debug\net7.0\PP.Context.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive\Masaüstü\.Net Eğitimi\Projeler\PayrollProgram\PP.Context\obj\Debug\net7.0\PP.Context.csproj.CopyComplete
+C:\Users\Lenovo\OneDrive\Masaüstü\.Net Eğitimi\Projeler\PayrollProgram\PP.Context\obj\Debug\net7.0\PP.Context.dll
+C:\Users\Lenovo\OneDrive\Masaüstü\.Net Eğitimi\Projeler\PayrollProgram\PP.Context\obj\Debug\net7.0\refint\PP.Context.dll
+C:\Users\Lenovo\OneDrive\Masaüstü\.Net Eğitimi\Projeler\PayrollProgram\PP.Context\obj\Debug\net7.0\PP.Context.pdb
+C:\Users\Lenovo\OneDrive\Masaüstü\.Net Eğitimi\Projeler\PayrollProgram\PP.Context\obj\Debug\net7.0\PP.Context.genruntimeconfig.cache
+C:\Users\Lenovo\OneDrive\Masaüstü\.Net Eğitimi\Projeler\PayrollProgram\PP.Context\obj\Debug\net7.0\ref\PP.Context.dll
