@@ -9,7 +9,21 @@ internal class Program
     private static void Main(string[] args)
     {
         //DosyaOku
-        List<Personel> personelListesi = DosyaOku.PersonelListesi("personeller.json");
+        var personelListesi = DosyaOku.PersonelListesi("personeller.json");
+
+        foreach (var personel in personelListesi)
+        {
+            Console.WriteLine($"Personel Adı: {personel.Ad} {personel.Soyad}");
+            Console.WriteLine($"Unvanı: {personel.Tip}");
+            Console.Write("Çalışma Saati: ");
+            int calismaSaati = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Saatlik Ücreti: ");
+            decimal saatlikUcret = Convert.ToDecimal(Console.ReadLine());
+
+            // Maaşı hesapla ve ekrana yazdır
+            decimal maas = personel.MaasHesapla(saatlikUcret,calismaSaati);
+            Console.WriteLine($"Maaş: {maas:C}\n");
+        }
 
         //MaasBordro
 

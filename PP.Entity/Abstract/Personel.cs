@@ -11,6 +11,7 @@ namespace PP.Entity.Abstract
         public int PersonelNumarasi { get; set; }
         public string Ad { get; set; }
         public string Soyad { get; set; }
+        public string Tip { get; set; }
         public string Departman { get; set;}
         public DateTime IseGiris { get; set; }
         public decimal SaatlikUcret { get; set; }
