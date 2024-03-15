@@ -14,7 +14,6 @@ namespace PP.Entity.Abstract
         public string Tip { get; set; }
         public string Departman { get; set;}
         public DateTime IseGiris { get; set; }
-        public decimal SaatlikUcret { get; set; }
-        public abstract decimal MaasHesapla(decimal saatlikUcret, int calismaSaati);
+        public abstract decimal MaasHesapla(decimal saatlikUcret, int calismaSaati,decimal Bonus);
     }
 }

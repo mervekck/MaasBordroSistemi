@@ -10,26 +10,26 @@ namespace PP.Entity.Concrete
 {
     public class MaasBordro
     {
-        public void BordroOlustur(List<Personel> personelListesi, decimal saatlikUcret, int calismaSaati)
-        {
-            foreach (var personel in personelListesi)
-            {
-                decimal maas = personel.MaasHesapla(saatlikUcret, calismaSaati);
-            }
-        }
+        //public void BordroOlustur(List<Personel> personelListesi, decimal saatlikUcret, int calismaSaati)
+        //{
+        //    foreach (var personel in personelListesi)
+        //    {
+        //        decimal maas = personel.YoneticiMaasHesapla(saatlikUcret, calismaSaati);
+        //    }
+        //}
 
-        public List<Personel> AzCalisanRaporu(List<Personel> personelListesi, int calismaSaati)
-        {
-            List<Personel> azCalisanlar = new List<Personel>();
-            foreach (var personel in personelListesi)
-            {
-                if (calismaSaati < 150)
-                {
-                    azCalisanlar.Add(personel);
-                }
-            }
-            return azCalisanlar;
-        }
+        //public List<Personel> AzCalisanRaporu(List<Personel> personelListesi, int calismaSaati)
+        //{
+        //    List<Personel> azCalisanlar = new List<Personel>();
+        //    foreach (var personel in personelListesi)
+        //    {
+        //        if (calismaSaati < 150)
+        //        {
+        //            azCalisanlar.Add(personel);
+        //        }
+        //    }
+        //    return azCalisanlar;
+        //}
 
     }
 }

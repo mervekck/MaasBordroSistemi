@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using PP.Entity.Abstract;
+using PP.Entity.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,12 @@ namespace PP.Entity.Json
         {
             string json = File.ReadAllText(dosyaYolu);
 
-            List<Personel> personelListesi = JsonConvert.DeserializeObject<List<Personel>>(json);
+            List<Yonetici> yoneticiler = JsonConvert.DeserializeObject<List<Yonetici>>(json);
+            List<Memur> memurlar = JsonConvert.DeserializeObject<List<Memur>>(json);
+
+            List<Personel> personelListesi = new List<Personel>();
+            personelListesi.AddRange(yoneticiler);
+            personelListesi.AddRange(memurlar);
 
             return personelListesi;
         }

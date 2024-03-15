@@ -9,8 +9,7 @@ namespace PP.Entity.Concrete
 {
     public class Yonetici : Personel
     {
-        public decimal Bonus { get; set; }
-        public override decimal MaasHesapla(decimal saatlikUcret, int calismaSaati)
+        public override decimal MaasHesapla(decimal saatlikUcret, int calismaSaati, decimal Bonus)
         {
             decimal Maas;
 
