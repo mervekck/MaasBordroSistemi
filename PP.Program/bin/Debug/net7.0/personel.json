@@ -1,21 +1,15 @@
 [
     {
         "PersonelNumarasi": 1,
-        "Ad": "Jane",
-        "Soyad": "Smith",
+        "Ad": "fatih",
+        "Soyad": "alkan",
         "Tip": "Yonetici"
     },
     {
         "PersonelNumarasi": 2,
-        "Ad": "John",
-        "Soyad": "Doe",
+        "Ad": "mehmet",
+        "Soyad": "arslan",
         "Tip": "Memur",
         "Derece": "2"
-    },
-    {
-        "PersonelNumarasi": 3,
-        "Ad": "fatih",
-        "Soyad": "alkan",
-        "Tip": "Yonetici"
     }
 ]
