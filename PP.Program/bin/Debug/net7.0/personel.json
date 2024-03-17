@@ -1,20 +1,21 @@
 [
-  {
-    "PersonelNumarasi": 1,
-    "Ad": "John",
-    "Soyad": "Doe",
-    "Tip": "Memur",
-    "Departman": "İdari İşler",
-    "IseGiris": "2024-01-01",
-    "Derece": "2"
-  },
-  {
-    "PersonelNumarasi": 2,
-    "Ad": "Jane",
-    "Soyad": "Smith",
-    "Tip": "Yonetici",
-    "Departman": "Satış",
-    "IseGiris": "2024-02-15",
-    "Bonus": 2000
-  }
+    {
+        "PersonelNumarasi": 1,
+        "Ad": "Jane",
+        "Soyad": "Smith",
+        "Tip": "Yonetici"
+    },
+    {
+        "PersonelNumarasi": 2,
+        "Ad": "John",
+        "Soyad": "Doe",
+        "Tip": "Memur",
+        "Derece": "2"
+    },
+    {
+        "PersonelNumarasi": 3,
+        "Ad": "fatih",
+        "Soyad": "alkan",
+        "Tip": "Yonetici"
+    }
 ]

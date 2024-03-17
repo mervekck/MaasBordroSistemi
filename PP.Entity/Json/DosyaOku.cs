@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using PP.Entity.Abstract;
 using PP.Entity.Concrete;
 using System;
@@ -17,13 +18,25 @@ namespace PP.Entity.Json
         public static List<Personel> PersonelListesi(string dosyaYolu)
         {
             string json = File.ReadAllText(dosyaYolu);
-
-            List<Yonetici> yoneticiler = JsonConvert.DeserializeObject<List<Yonetici>>(json);
-            List<Memur> memurlar = JsonConvert.DeserializeObject<List<Memur>>(json);
-
             List<Personel> personelListesi = new List<Personel>();
-            personelListesi.AddRange(yoneticiler);
-            personelListesi.AddRange(memurlar);
+
+            //personel abstract olduğu için json.deseriliaze yapılamaz bu yüzden memur ve yönetici diye ayırmak için jarray kullandım
+            JArray jArray = JArray.Parse(json);
+
+            foreach (JObject jObject in jArray)
+            {
+                string tip = jObject.Value<string>("Tip");
+                if (tip == "Yonetici")
+                {
+                    Yonetici yonetici = jObject.ToObject<Yonetici>();
+                    personelListesi.Add(yonetici);
+                }
+                else if (tip == "Memur")
+                {
+                    Memur memur = jObject.ToObject<Memur>();
+                    personelListesi.Add(memur);
+                }
+            }
 
             return personelListesi;
         }

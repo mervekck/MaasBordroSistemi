@@ -10,26 +10,25 @@ namespace PP.Entity.Concrete
 {
     public class MaasBordro
     {
-        //public void BordroOlustur(List<Personel> personelListesi, decimal saatlikUcret, int calismaSaati)
-        //{
-        //    foreach (var personel in personelListesi)
-        //    {
-        //        decimal maas = personel.YoneticiMaasHesapla(saatlikUcret, calismaSaati);
-        //    }
-        //}
+        public string PersonelIsmi { get; set; }
+        public int CalismaSaati { get; set; }
+        public decimal AnaOdeme { get; set; }
+        public decimal Mesai { get; set; }
+        public decimal ToplamOdeme { get; set; }
+        public string Ay { get; set; }
+        public MaasBordro(string ay)
+        {
+            Ay = ay;
+        }
+        public string ToJson()
+        {
+            return JsonConvert.SerializeObject(this, Formatting.Indented);
+        }
 
-        //public List<Personel> AzCalisanRaporu(List<Personel> personelListesi, int calismaSaati)
-        //{
-        //    List<Personel> azCalisanlar = new List<Personel>();
-        //    foreach (var personel in personelListesi)
-        //    {
-        //        if (calismaSaati < 150)
-        //        {
-        //            azCalisanlar.Add(personel);
-        //        }
-        //    }
-        //    return azCalisanlar;
-        //}
-
+        public static void Kaydet(List<MaasBordro> maasBordroListesi, string dosyaAdi)
+        {
+            string json = JsonConvert.SerializeObject(maasBordroListesi, Formatting.Indented);
+            File.WriteAllText(dosyaAdi, json);
+        }
     }
 }

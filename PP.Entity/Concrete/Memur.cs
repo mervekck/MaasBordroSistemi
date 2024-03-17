@@ -11,10 +11,13 @@ namespace PP.Entity.Concrete
     public class Memur : Personel
     {
         public Derece Derece { get; set; }
-        public decimal SaatlikUcret { get { return 500 * ((int)Derece + ((int)Derece * 5m / 100));  } set { } }
-
+        public decimal MemurSaatlikUcretHesapla()
+        {
+            return 500 * ((int)Derece + ((int)Derece * 5m / 100));
+        }
         public override decimal MaasHesapla(decimal saatlikUcret, int calismaSaati, decimal Bonus)
         {
+
             decimal Maas=0;
             try
             {
